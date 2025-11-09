@@ -9,3 +9,7 @@ rd /s /q "%APPDATA%\Code\User\globalStorage"
 git config --global user.name "itschool"
 
 git config --global user.email "itschool@tou.edu.kz"
+
+git config --global push.autoSetupRemote true
+
+git config --global push.default current
